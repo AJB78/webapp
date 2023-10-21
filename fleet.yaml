@@ -3,6 +3,6 @@
     values:
       serviceType: LoadBalancer
       replicas: 3
-  clusterSelector:
-    matchLabels:
-      environment: production
+  #clusterSelector:
+    #matchLabels:
+      #environment: production
