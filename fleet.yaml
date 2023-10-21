@@ -5,4 +5,4 @@
       replicas: 3
   clusterSelector:
     matchLabels:
-      env: prod
+      environment: production
