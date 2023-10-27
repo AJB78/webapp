@@ -1,0 +1,13 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:  
+  name: webapp
+  namespace: fleet-default  
+spec:
+  branch: master
+  clientSecretName: auth-spbms  
+  paths:
+    - /kubernetes
+  repo: https://github.com/AJB78/webapp
+  targets:
+    - clusterName: supertest
